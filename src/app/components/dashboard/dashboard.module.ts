@@ -9,6 +9,7 @@ import { ProveedoresComponent } from './proveedores/proveedores.component';
 import { ProductosComponent } from './productos/productos.component';
 import { VentaComponent } from './venta/venta.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { VendedoresComponent } from './vendedores/vendedores.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ProveedoresComponent,
     ProductosComponent,
     VentaComponent,
-    NavbarComponent
+    NavbarComponent,
+    VendedoresComponent
   ],
   imports: [
     CommonModule,
